@@ -6,7 +6,7 @@ import ElementUI from 'element-ui'; // 引入ui 组件库
 import 'element-ui/lib/theme-chalk/index.css'; //ui 组件库的 css 样式
 import '@/assets/global.css'
 
-Vue.use(ElementUI)
+Vue.use(ElementUI, { size: 'medium' });//显示的尺寸 medium small mini
 
 Vue.config.productionTip = false
 

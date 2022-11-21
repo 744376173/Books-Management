@@ -4,6 +4,6 @@ import com.example.springboot.entity.User;
 
 import java.util.List;
 
-public interface IUserMapper {
+public interface IUserService {
     List<User> listUsers();
 }
